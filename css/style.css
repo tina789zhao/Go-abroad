@@ -28,7 +28,7 @@ header {
   color: #ffffff;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: #e8491d 3px solid;
+  border-bottom: #666699 3px solid;
 }
 
 header a {
@@ -62,7 +62,7 @@ header nav {
 }
 header .highligh,
 header .current a {
-  color: #e8491d;
+  color: #666699;
   font-weight: bold;
 }
 header a:hover {
@@ -128,5 +128,5 @@ footer {
   margin-top: 20px;
   color: #ffffff;
   text-align: center;
-  background-color: #e8491d;
+  background-color: #666699;
 }
