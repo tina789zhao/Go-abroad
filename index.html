@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<import>slideshow-container</import>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -26,12 +26,13 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Github Page demo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
-    <script src="./js/index.js"></script>
+    <style>
+      /* Make the image fully responsive */
+      .carousel-inner img {
+        width: 100%;
+        /* height: 100%; */
+      }
+      </style>
 
     <title>Go broad study</title>
     <link rel="stylesheet" href="./css/style.css" />
@@ -39,23 +40,22 @@
   </head>
   <body>
     <header>
-      <div id="main-content"></div>
       <div class="container">
-        <div id="branding">
-          <h1><span class="highligh"></span>Go abroad study</h1>
+        <div id="branding11">
+          <h1>Go abroad study</h1>
         </div>
         <nav>
           <ul>
             <li class="current"><a href="index.html">Home</a></li>
             <li><a href="about.html">about</a></li>
-            <li><a href="services.html">service</a></li>
+            <li><a href="services.html">services</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
     <section id="showcase">
-      <div class="container" style="height: 500px; overflow: hidden;">
+      <div class="container2" style="height: 500px; overflow: hidden;">
         <div
           id="carouselExampleIndicators"
           class="carousel slide h-100"
@@ -72,21 +72,21 @@
           </ol>
           <div class="carousel-inner h-100">
             <div class="carousel-item active h-100">
-              <img src="./img/showcase.jpg" alt="First slide" />
+              <img src="./img/p1.jpg" alt="First slide" />
               <div class="carousel-caption d-none d-md-block">
                 <h5>First slide lable</h5>
                 <p>some description can be placed here.</p>
               </div>
             </div>
             <div class="carousel-item h-100">
-              <img src="./img/showcase.jpg" alt="Second slide" />
+              <img src="./img/p2.jpg" alt="Second slide" />
               <div class="carousel-caption d-none d-md-block">
                 <h5>Second slide lable</h5>
                 <p>some description can be placed here.</p>
               </div>
             </div>
             <div class="carousel-item h-100">
-              <img src="./img/showcase.jpg" alt="Third slide" />
+              <img src="./img/p3.jpeg" alt="Third slide" />
               <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide lable</h5>
                 <p>some description can be placed here.</p>
@@ -114,22 +114,7 @@
         </div>
       </div>
     </section>
-    <!-- <section id="showcase">
-      <div class="container">
-        <h1>Wellcom to go broad company</h1>
-        <p>we are the best agin</p>
-      </div>
-    </section> -->
-    <section id="newsletter">
-      <!-- <div class="container">
-        <h1>Newsletter</h1>
-        <form>
-          <input type="email" placeholder="enter email ..." />
-          <button type="submit" class="button_1">subscribe</button>
-        </form>
-      </div> -->
-    </section>
-
+    
     <section id="boxes">
       <div class="container">
         <div class="box">
@@ -168,6 +153,5 @@
     <footer>
       <p>Go abroad study, copyright &copy; 2017</p>
     </footer>
-  </div>
   </body>
 </html>
