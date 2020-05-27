@@ -53,12 +53,15 @@ header ul, article ul {
 
 header li {
   float: left;
-  /* display: inline; */
-  padding: 0 20px 0 20px;
+  padding: 0px 20px 0 20px;
+   width: 90px;
+  height: 40px; 
+  
 }
 
 header #branding11 {
   float: left;
+  padding-bottom: 10px;
 }
 header #branding11 h1 {
   margin: 0;
