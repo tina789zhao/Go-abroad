@@ -156,10 +156,13 @@ footer {
   header nav li,
   #boxes .box,
   article#main-col,
-  aside#sidebar{
+  aside#sidebar,#shocase{
     float:none;
     text-align:center;
     width:100%;
+  }
+  .carousel-item h-100{
+    margin-top:40px;
   }
 
   header{
