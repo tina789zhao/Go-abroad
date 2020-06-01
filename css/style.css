@@ -1,9 +1,13 @@
+html{
+  height: 100%;
+}
 body {
   font: 15px/1.5 Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
   background-color: #f4f4f4;
   height: 100%;
+  position: relative;
 }
 
 .container {
@@ -180,14 +184,15 @@ ul#services li{
 
 footer {
   padding: 30px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   color: #ffffff;
   text-align: center;
   background-color: #333366;
   height: 100px;
   margin-bottom: 0;
   width: 100%;
- position: relative;
+ position: absolute;
+ bottom:0;
 
  
 }
@@ -213,7 +218,7 @@ footer {
   footer {
    
     width: 100%;
-   
+    position: relative;
     bottom: 0;
   
    
