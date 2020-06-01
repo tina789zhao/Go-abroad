@@ -213,7 +213,7 @@ footer {
 }
 
 @media(max-width: 768px){
-  header #branding11,
+  header #branding11,header #branding11 img,
   header nav,
   header nav li,
   #boxes .box,
