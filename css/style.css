@@ -15,6 +15,22 @@ body {
   margin: auto;
   overflow: hidden;
 }
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.dark2{
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#35424a;
+  color:#ffffff;
+  height: 400px;
+  font-weight: auto;
+}
 
 ul {
   margin: 0;
@@ -140,9 +156,19 @@ header a:hover {
   text-align: center;
   width:30%;
   padding:10px;
+  height: 600px;
 }
 #boxes .box img {
-  width: 90px;
+  width: 110px;
+  height: 90px;
+}
+
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
 }
 
 footer {
