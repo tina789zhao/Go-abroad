@@ -105,14 +105,19 @@ header li {
 }
 
 header #branding11 {
-  margin: 0;
-  margin-left: 30px;
+  margin-top: 5px;
+  margin-left: 20px;
   padding-left: 0;
   padding-top: 0;
   float: left;
 }
 header #branding11 h1 {
   margin: 0;
+  font-size: 48px;
+  font-family: "Oswald", sans-serif;
+}
+
+.logo {
   font-size: 48px;
   font-family: "Oswald", sans-serif;
 }
@@ -219,9 +224,6 @@ footer {
 }
 @media (max-width: 768px) {
   header #branding11,
-  header #branding11 img,
-  header nav,
-  header nav li,
   #boxes .box,
   article#main-col,
   aside#sidebar,
