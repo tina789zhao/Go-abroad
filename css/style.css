@@ -1,4 +1,4 @@
-html{
+html {
   height: 100%;
 }
 body {
@@ -9,38 +9,43 @@ body {
   height: 100%;
   position: relative;
 }
+.header-top {
+  margin-top: 0;
+  width: 90%;
+}
 
 .container {
   width: 80%;
   margin: auto;
   overflow: hidden;
   /* min-height:100%;  */
-  position:relative;  
+  position: relative;
   /* padding-bottom: 100px;   */
   box-sizing: border-box;
 }
-.container2{
-  width:100%;
+.container2 {
+  width: 100%;
   margin: auto;
   overflow: hidden;
-  min-height:100%; 
-  position:relative; 
-  padding-bottom: 100px;  
+  /* min-height: 40%; */
+  /* height: 400px; */
+  position: relative;
+  padding-bottom: 100px;
   box-sizing: border-box;
 }
-.dark{
-  padding:15px;
-  background:#35424a;
-  color:#ffffff;
-  margin-top:10px;
-  margin-bottom:10px;
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.dark2{
-  padding:20px;
+.dark2 {
+  padding: 20px;
   border: #cccccc solid 1px;
-  margin-bottom:5px;
-  background:#35424a;
-  color:#ffffff;
+  margin-bottom: 5px;
+  background: #35424a;
+  color: #ffffff;
   height: 400px;
   font-weight: auto;
 }
@@ -56,18 +61,19 @@ ul {
   border: none;
   padding-left: 20px;
   padding-right: 20px;
-  color: #ffffff;
+  color: #f8f9fa;
 }
+
 header {
-  background: #333366;
+  background: #0081a4;
   color: #ffffff;
-  padding-top: 30px;
-  min-height: 70px;
+  padding-top: 0;
+  margin: 0;
+
   /* border-bottom: #e8491d 3px solid; */
-  /* padding-bottom: 30px; */
+  padding-bottom: 20px;
   width: 100%;
-  
- 
+  height: 70px;
 }
 
 header a {
@@ -77,8 +83,8 @@ header a {
   font-size: 16px;
 }
 
-
-header ul, article ul {
+header ul,
+article ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -86,34 +92,28 @@ header ul, article ul {
 
 header li {
   float: left;
-  padding:  0 20px 0 20px;
-   width: 90px;
-  height: 40px; 
- 
-  
+  padding: 0 20px 0 20px;
+  width: 90px;
+  height: 40px;
 }
 
 header #branding11 {
- margin: 0;
-  padding-left: 0;
-  padding-top:0;
-  width:300px;
-  height: 150px;
-float: left;
-}
-/* header #branding11 h1 {
   margin: 0;
- 
-} */
-header #branding11 img{
-margin: 0;
-width: 550px;
-height: 150px;
-overflow: hidden;}
+  margin-left: 30px;
+  padding-left: 0;
+  padding-top: 0;
+  float: left;
+}
+header #branding11 h1 {
+  margin: 0;
+  font-size: 48px;
+  font-family: "Oswald", sans-serif;
+}
 
 header nav {
   float: right;
-  margin-top: 40px;
+  margin-top: 0;
+  background-color: #0081a4;
 }
 
 header .current a {
@@ -127,13 +127,12 @@ header a:hover {
 
 /* showcase */
 #showcase {
- /* min-height: 200px; */
+  /* min-height: 200px; */
   text-align: center;
   color: black;
   margin: auto;
   overflow: hidden;
   padding: 0;
-  
 }
 #showcase h1 {
   margin-top: 50px;
@@ -144,7 +143,7 @@ header a:hover {
 #showcase p {
   font-size: 20px;
 }
-#main h1{
+#main h1 {
   margin-top: 10px;
   font-size: 55px;
   margin-bottom: 10px;
@@ -177,11 +176,11 @@ header a:hover {
   margin-top: 20px;
 }
 
-#boxes .box{
-  float:left;
+#boxes .box {
+  float: left;
   text-align: center;
-  width:30%;
-  padding:10px;
+  width: 30%;
+  padding: 10px;
   height: 600px;
 }
 #boxes .box img {
@@ -189,12 +188,12 @@ header a:hover {
   height: 90px;
 }
 
-ul#services li{
+ul#services li {
   list-style: none;
-  padding:20px;
+  padding: 20px;
   border: #cccccc solid 1px;
-  margin-bottom:5px;
-  background:#e6e6e6;
+  margin-bottom: 5px;
+  background: #e6e6e6;
 }
 
 footer {
@@ -202,41 +201,40 @@ footer {
   /* margin-top: 20px; */
   color: #ffffff;
   text-align: center;
-  background-color: #333366;
+  background-color: #0081a4;
   height: 100px;
   margin-bottom: 0;
   width: 100%;
- position: relative;
- bottom:0;
-
- 
+  bottom: 0;
 }
-
-@media(max-width: 768px){
-  header #branding11,header #branding11 img,
+.carousel-caption {
+  bottom: 300px;
+}
+@media (max-width: 768px) {
+  header #branding11,
+  header #branding11 img,
   header nav,
   header nav li,
   #boxes .box,
   article#main-col,
-  aside#sidebar,#shocase{
-    float:none;
-    text-align:center;
-    width:100%;
+  aside#sidebar,
+  #shocase {
+    float: none;
+    text-align: center;
+    width: 100%;
   }
-  .carousel-item h-100{
-    margin-top:40px;
+  .carousel-item h-100 {
+    margin-top: 40px;
   }
 
-  header{
+  header {
     padding-bottom: 20px;
   }
-  
 
-  #showcase{
+  #showcase {
     margin-top: 10px;
   }
-  #showcase h1{
-    margin-top:40px;
+  #showcase h1 {
+    margin-top: 40px;
   }
-
 }
