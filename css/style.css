@@ -12,7 +12,6 @@ body {
 .header-top {
   margin-top: 0;
   width: 90%;
-
   margin: auto;
   overflow: hidden;
   /* min-height:100%;  */
@@ -77,31 +76,10 @@ header {
   padding-top: 0;
   margin: 0;
 
-  /* border-bottom: #e8491d 3px solid; */
+  border-bottom: #e8491d 3px solid;
   padding-bottom: 20px;
   width: 100%;
   height: auto;
-}
-
-header a {
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-header ul,
-article ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-header li {
-  float: left;
-  padding: 0 20px 0 20px;
-  width: 90px;
-  height: 40px;
 }
 
 header #branding11 {
@@ -113,11 +91,6 @@ header #branding11 {
 }
 header #branding11 h1 {
   margin: 0;
-  font-size: 48px;
-  font-family: "Oswald", sans-serif;
-}
-
-.logo {
   font-size: 48px;
   font-family: "Oswald", sans-serif;
 }
