@@ -25,18 +25,28 @@ body {
   width: 80%;
   margin: auto;
   overflow: hidden;
-  /* min-height:100%;  */
+  /* min-height: 100%; */
   position: relative;
   /* padding-bottom: 100px;   */
   box-sizing: border-box;
 }
+
+/* slidesshow的图片 */
 .container2 {
   width: 100%;
   margin: auto;
   overflow: hidden;
-  /* min-height: 40%; */
+  height: 500px;
   position: relative;
   box-sizing: border-box;
+}
+.image-container {
+  height: auto;
+  max-width: 100%;
+  height: 500px;
+  display: block;
+  margin: auto;
+  overflow: hidden;
 }
 .dark {
   padding: 15px;
@@ -201,16 +211,11 @@ footer {
   bottom: 300px;
 }
 
-.image-container {
-  height: 500px;
-  overflow: hidden;
-}
 @media (max-width: 768px) {
   header #branding11,
   #boxes .box,
   article#main-col,
   aside#sidebar,
-  #carouselExampleIndicators,
   #shocase {
     float: none;
     text-align: center;
@@ -229,5 +234,10 @@ footer {
   }
   #showcase h1 {
     margin-top: 40px;
+  }
+
+  .image-container {
+    height: 300px;
+    width: 200%;
   }
 }
