@@ -40,8 +40,8 @@ body {
   box-sizing: border-box;
 }
 .carousel-inner p,
-h2 {
-  font-size: 48px;
+.carousel-inner h2 {
+  font-size: 4vw;
 }
 .image-container {
   height: auto;
@@ -53,10 +53,10 @@ h2 {
 }
 /* slides words */
 
-.carousel-caption {
+/* .carousel-caption {
   position: absolute;
   overflow: hidden;
-}
+} */
 .dark {
   padding: 15px;
   background: #35424a;
@@ -225,9 +225,6 @@ footer {
   text-align: center;
   align-items: center;
 }
-.carousel-caption {
-  bottom: 300px;
-}
 
 @media (max-width: 768px) {
   header #branding11,
@@ -257,5 +254,10 @@ footer {
   .image-container {
     height: 300px;
     width: 200%;
+  }
+  .carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 30px;
   }
 }
