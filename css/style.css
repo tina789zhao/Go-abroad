@@ -39,12 +39,22 @@ body {
   position: relative;
   box-sizing: border-box;
 }
+.carousel-inner p,
+h2 {
+  font-size: 48px;
+}
 .image-container {
   height: auto;
   max-width: 100%;
   height: 500px;
   display: block;
   margin: auto;
+  overflow: hidden;
+}
+/* slides words */
+
+.carousel-caption {
+  position: absolute;
   overflow: hidden;
 }
 .dark {
