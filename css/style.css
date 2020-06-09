@@ -200,15 +200,8 @@ ul#services li {
 }
 
 footer {
-  padding: 30px;
-  /* margin-top: 20px; */
-  color: #ffffff;
-  /* text-align: center; */
   background-color: #0081a4;
-  margin-bottom: 0;
-  width: 100%;
-  bottom: 0;
-  align-items: center;
+  color: #ffffff;
 }
 .row {
   width: 100%;
