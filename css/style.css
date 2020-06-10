@@ -226,7 +226,8 @@ footer {
   float: left;
   text-align: left;
   position: relative;
-  width: 50%;
+  width: 600px;
+  height: 400px;
 }
 
 .wechat {
@@ -268,8 +269,9 @@ footer {
   }
   .address,
   .wechat {
-    width: 100%;
+    width: 50%;
   }
+
   .image-container {
     height: 300px;
     width: 200%;
