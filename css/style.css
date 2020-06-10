@@ -231,7 +231,6 @@ footer {
 
 .wechat {
   float: right;
-  text-align: left;
   position: relative;
   width: 100%;
 }
@@ -265,11 +264,6 @@ footer {
   }
   #showcase h1 {
     margin-top: 40px;
-  }
-  .address,
-  .wechat {
-    width: 100%;
-    text-align: center;
   }
 
   .image-container {
