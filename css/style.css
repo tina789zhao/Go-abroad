@@ -266,7 +266,10 @@ footer {
   #showcase h1 {
     margin-top: 40px;
   }
-
+  .address,
+  .wechat {
+    width: 100%;
+  }
   .image-container {
     height: 300px;
     width: 200%;
