@@ -220,6 +220,21 @@ footer {
   bottom: 0;
   align-items: center;
 }
+
+/* footer css */
+.address {
+  float: left;
+  text-align: left;
+  position: relative;
+}
+
+.wechat {
+  float: right;
+  text-align: left;
+  position: relative;
+  padding-left: 40px;
+}
+
 .row {
   width: 100%;
   text-align: center;
