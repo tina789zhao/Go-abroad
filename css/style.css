@@ -226,13 +226,14 @@ footer {
   float: left;
   text-align: left;
   position: relative;
+  width: 100%;
 }
 
 .wechat {
   float: right;
   text-align: left;
   position: relative;
-  width: 50%;
+  width: 100%;
 }
 
 .row {
