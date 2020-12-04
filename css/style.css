@@ -22,13 +22,14 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 100%;
   margin: auto;
   overflow: hidden;
   /* min-height: 100%; */
   position: relative;
   /* padding-bottom: 100px;   */
   box-sizing: border-box;
+  padding:0px;
 }
 
 /* slidesshow的图片 */
